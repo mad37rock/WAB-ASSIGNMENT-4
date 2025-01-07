@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Anime</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        .row {
+            display: flex;
+            width: 100%;
+            background-color: black;
+        }
+
+        .row-1 {
+            height: 15%;
+            color: white;
+        }
+
+        .row-2 {
+            height: 10%;
+            color: white;
+        }
+
+        .row-3 {
+            flex: 1;
+            color: white;
+        }
+
+        .col {
+            flex: 1;
+            border: 1px solid #ccc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+
+        .col-8 {
+            flex: 0 0 8%;
+        }
+
+        .col-20 {
+            flex: 0 0 20%;
+        }
+
+        a {
+            color: #FFC300 ;
+            text-decoration: none;
+        }
+
+        h1 {
+            color: #FFC300 ;
+        }
+
+        h2 {
+            color: #FFC300 ;
+        }
+        b{
+            color:#FFC300;
+        }
+    </style>
+</head>
+<body>
+    <div class="row row-1">
+        <div class="col col-8">
+            <img src="logo.jpg" height="90px" align="center">
+        </div>
+        <div class="col">
+            <h1>Anitaku</h1>
+        </div>
+    </div>
+
+    <div class="row row-2">
+        <div class="col col-20">
+            <a href="content_home.html">
+                <p align="center">
+                    <h3>Home</h3>
+                </p>
+            </a>
+        </div>
+        <div class="col col-20">
+            <a href="content_login.html" >
+                <h3>Login</h3>
+            </a>
+        </div>
+        <div class="col col-20">
+            <a href="content_catalog.html" >
+                <h3>Catalog</h3>
+            </a>
+        </div>
+        <div class="col col-20">
+            <a href="content_community.html" >
+                <h3>Community</h3>
+            </a>
+        </div>
+        <div class="col">
+            <a href="content_contact.html">
+                <h3>Contact Us</h3>
+            </a>
+        </div>
+    </div>
+
+    <div class="row row-3">
+        <div class="col col-20">
+            <div class="services-content">
+                <h1>Services</h1>
+                <ul>
+                    <li><a href="anime_list.html" >Anime List</a></li>
+                    <li><a href="best_anime.html" >Best Anime</a></li>
+                    <li><a href="new_season.html" >New Season</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col">
+            <p><b>Anitaku</b> is a comprehensive platform dedicated to providing fans of Japanese animation and culture with a one-stop destination for all things anime.
+                Whether you're a long-time otaku or new to the world of anime, this site offers an extensive library of streaming anime series, manga chapters, and other related content.</p>
+
+        </div>
+    </div>
+</body>
+
+</html>
